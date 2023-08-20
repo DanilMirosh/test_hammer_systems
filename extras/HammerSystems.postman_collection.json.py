@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "b513eee5-c984-4916-a43d-524f5c88f17b",
+		"_postman_id": "b513eed5-c984-4916-a43d-524f5c8verf4",
 		"name": "HammerSystems",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -11,15 +11,15 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://51.250.37.48:1337/",
+					"raw": "http://51.159.148.219:1520/",
 					"protocol": "http",
 					"host": [
 						"51",
-						"250",
-						"37",
-						"48"
+						"159",
+						"148",
+						"219"
 					],
-					"port": "1337",
+					"port": "1520",
 					"path": [
 						""
 					]
@@ -33,15 +33,15 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://51.250.37.48:1337/auth",
+					"raw": "http://51.159.148.219:1520/auth",
 					"protocol": "http",
 					"host": [
 						"51",
-						"250",
-						"37",
-						"48"
+						"159",
+						"148",
+						"219"
 					],
-					"port": "1337",
+					"port": "1520",
 					"path": [
 						"auth"
 					]
@@ -56,7 +56,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\"phone_number\": \"+79685127157\"}",
+					"raw": "{\"phone_number\": \"+79123456789\"}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -64,15 +64,15 @@
 					}
 				},
 				"url": {
-					"raw": "http://51.250.37.48:1337/api/auth",
+					"raw": "http://51.159.148.219:1520/api/auth",
 					"protocol": "http",
 					"host": [
 						"51",
-						"250",
-						"37",
-						"48"
+						"159",
+						"148",
+						"219"
 					],
-					"port": "1337",
+					"port": "1520",
 					"path": [
 						"api",
 						"auth"
@@ -88,7 +88,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\"phone_number\": \"+79685127157\", \"code\": 7598}",
+					"raw": "{\"phone_number\": \"+79123456789\", \"code\": 7598}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -96,15 +96,15 @@
 					}
 				},
 				"url": {
-					"raw": "http://51.250.37.48:1337/api/verify",
+					"raw": "http://51.159.148.219:1520/api/verify",
 					"protocol": "http",
 					"host": [
 						"51",
-						"250",
-						"37",
-						"48"
+						"159",
+						"148",
+						"219"
 					],
-					"port": "1337",
+					"port": "1520",
 					"path": [
 						"api",
 						"verify"
@@ -120,7 +120,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\"phone_number\": \"+79685127157\", \"code\": 7598}",
+					"raw": "{\"phone_number\": \"+79123456789\", \"code\": 7598}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -128,15 +128,15 @@
 					}
 				},
 				"url": {
-					"raw": "http://51.250.37.48:1337/api/verify",
+					"raw": "http://51.159.148.219:1520/api/verify",
 					"protocol": "http",
 					"host": [
 						"51",
-						"250",
-						"37",
-						"48"
+						"159",
+						"148",
+						"219"
 					],
-					"port": "1337",
+					"port": "1520",
 					"path": [
 						"api",
 						"verify"
@@ -157,15 +157,15 @@
 					}
 				],
 				"url": {
-					"raw": "http://51.250.37.48:1337/api/profile",
+					"raw": "http://51.159.148.219:1520/api/profile",
 					"protocol": "http",
 					"host": [
 						"51",
-						"250",
-						"37",
-						"48"
+						"159",
+						"148",
+						"219"
 					],
-					"port": "1337",
+					"port": "1520",
 					"path": [
 						"api",
 						"profile"
@@ -186,15 +186,15 @@
 					}
 				],
 				"url": {
-					"raw": "http://51.250.37.48:1337/api/profile",
+					"raw": "http://51.159.148.219:1520/api/profile",
 					"protocol": "http",
 					"host": [
 						"51",
-						"250",
-						"37",
-						"48"
+						"159",
+						"148",
+						"219"
 					],
-					"port": "1337",
+					"port": "1520",
 					"path": [
 						"api",
 						"profile"
@@ -225,15 +225,15 @@
 					}
 				},
 				"url": {
-					"raw": "http://51.250.37.48:1337/api/auth",
+					"raw": "http://51.159.148.219:1520/api/auth",
 					"protocol": "http",
 					"host": [
 						"51",
-						"250",
-						"37",
-						"48"
+						"159",
+						"148",
+						"219"
 					],
-					"port": "1337",
+					"port": "1520",
 					"path": [
 						"api",
 						"auth"
@@ -264,15 +264,15 @@
 					}
 				},
 				"url": {
-					"raw": "http://51.250.37.48:1337/api/verify",
+					"raw": "http://51.159.148.219:1520/api/verify",
 					"protocol": "http",
 					"host": [
 						"51",
-						"250",
-						"37",
-						"48"
+						"159",
+						"148",
+						"219"
 					],
-					"port": "1337",
+					"port": "1520",
 					"path": [
 						"api",
 						"verify"
@@ -297,15 +297,15 @@
 					"raw": "{\"friend_identifier\":\"[MQUO]\"}"
 				},
 				"url": {
-					"raw": "http://51.250.37.48:1337/api/add/friend",
+					"raw": "http://51.159.148.219:1520/api/add/friend",
 					"protocol": "http",
 					"host": [
 						"51",
-						"250",
-						"37",
-						"48"
+						"159",
+						"148",
+						"219"
 					],
-					"port": "1337",
+					"port": "1520",
 					"path": [
 						"api",
 						"add",
@@ -332,15 +332,15 @@
 					"raw": "{\"phone_number\":\"\"}"
 				},
 				"url": {
-					"raw": "http://51.250.37.48:1337/api/auth",
+					"raw": "http://51.159.148.219:1520/api/auth",
 					"protocol": "http",
 					"host": [
 						"51",
-						"250",
-						"37",
-						"48"
+						"159",
+						"148",
+						"219"
 					],
-					"port": "1337",
+					"port": "1520",
 					"path": [
 						"api",
 						"auth"
@@ -373,15 +373,15 @@
 					}
 				},
 				"url": {
-					"raw": "http://51.250.37.48:1337/api/token/refresh",
+					"raw": "http://51.159.148.219:1520/api/token/refresh",
 					"protocol": "http",
 					"host": [
 						"51",
-						"250",
-						"37",
-						"48"
+						"159",
+						"148",
+						"219"
 					],
-					"port": "1337",
+					"port": "1520",
 					"path": [
 						"api",
 						"token",
