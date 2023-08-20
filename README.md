@@ -164,16 +164,3 @@ NOTE: Requests that requirer JWT must be sent with headers containing access_tok
     </div>
 </li>
 </ul>
-<br>
-<h1 id="additional">Additional:</h1>
-<ul>
-<li>
-    Implemented pipeline for automated deployment.
-</li>
-<li>
-    Host: Yandex.Cloud compute cloud
-</li>
-<li>
-    PostgreSQL: www.elephantsql.com
-</li>
-</ul>
